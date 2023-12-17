@@ -1,0 +1,10 @@
+.container-box{
+    width: 70%;
+    margin: auto;
+}
+
+.profile-image{
+    border-radius: 70%;
+    width: 280px;
+    height: 200px;
+}
