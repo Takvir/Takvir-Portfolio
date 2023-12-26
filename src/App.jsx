@@ -1,5 +1,7 @@
 
 import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './Components/About/About'
 import Contact from './Components/Contact/Contact'
 import Experience from './Components/Experience/Experience'
@@ -14,6 +16,7 @@ function App() {
 
   return (
     <>
+
       <div>
         <Navbar></Navbar>
         <Home></Home>
