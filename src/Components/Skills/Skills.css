@@ -25,3 +25,9 @@ ul {
     background-color: #3498db;
   }
   
+  @media only screen and (max-width: 600px) {
+    .container-box{
+        width: 80%;
+        margin: auto;
+    }
+  }

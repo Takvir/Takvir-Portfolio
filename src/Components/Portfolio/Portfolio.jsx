@@ -16,13 +16,13 @@ const Portfolio = ({ sectionNumber }) => {
           Portfolio
         </h1>
         <div className="grid lg:grid-cols-3 gap-12 place-items-center">
-          <div className="card h-96 border-2 border-sky-600 w-64 bg-gray-900 shadow-xl">
+          <div className="card h-96 border-2 border-sky-600 sm:w-72 lg:w-64 bg-gray-900 shadow-xl">
           <a href="https://www.facebook.com/likhon.alam">
           <figure className="px-4 pt-5">
               <img
                 src={Decent}
                 alt="DECENT"
-                className="rounded-xl w-96 h-32"
+                className="rounded-xl lg:w-96 sm:w-80 h-32"
                 
               />
             </figure>
@@ -39,13 +39,13 @@ const Portfolio = ({ sectionNumber }) => {
             </div>
           </div>
 
-          <div className="card h-96 border-2 border-sky-600 w-64 bg-gray-900 shadow-xl">
+          <div className="card h-96 border-2 border-sky-600 sm:w-72 lg:w-64  bg-gray-900 shadow-xl">
            <a href="https://secure.salon.coop/#/sign-in">
            <figure className="px-4 pt-5">
               <img
                 src={Saloon}
                 alt="Shoes"
-                className="rounded-xl w-96 h-32"
+                className="rounded-xl lg:w-96 sm:w-80 h-32"
               />
             </figure>
            </a>
@@ -61,13 +61,13 @@ const Portfolio = ({ sectionNumber }) => {
           </div>
 
 
-          <div className="card h-96 border-2 border-sky-600 w-64 bg-gray-900 shadow-xl">
+          <div className="card h-96 border-2 border-sky-600 sm:w-72 lg:w-64 bg-gray-900 shadow-xl">
            <a href="https://login.mycareergate.ch/login">
            <figure className="px-4 pt-5">
               <img
                 src={MCG}
                 alt="Shoes"
-                className="rounded-xl w-96 h-32"
+                className="rounded-xl lg:w-96 sm:w-80 h-32"
               />
             </figure>
            </a>
@@ -82,12 +82,12 @@ const Portfolio = ({ sectionNumber }) => {
             </div>
           </div>
 
-          <div className="card h-96 border-2 border-sky-600 w-64 bg-gray-900 shadow-xl">
+          <div className="card h-96 border-2 border-sky-600 sm:w-72 lg:w-64 bg-gray-900 shadow-xl">
             <figure className="px-4 pt-5">
               <img
                 src={Employee}
                 alt="Shoes"
-                className="rounded-xl w-96 h-32"
+                className="rounded-xl lg:w-96 sm:w-80 h-32"
               />
             </figure>
 
@@ -102,12 +102,12 @@ const Portfolio = ({ sectionNumber }) => {
             </div>
           </div>
 
-          <div className="card h-96 border-2 border-sky-600 w-64 bg-gray-900 shadow-xl">
+          <div className="card h-96 border-2 border-sky-600 sm:w-72 lg:w-64 bg-gray-900 shadow-xl">
             <figure className="px-4 pt-5">
               <img
                 src={Meal}
                 alt="Meal"
-                className="rounded-xl w-96 h-32"
+                className="rounded-xl lg:w-96 sm:w-80 h-32"
               />
             </figure>
 
@@ -122,12 +122,12 @@ const Portfolio = ({ sectionNumber }) => {
             </div>
           </div>
 
-          <div className="card h-96 border-2 border-sky-600 w-64 bg-gray-900 shadow-xl">
+          <div className="card h-96 border-2 border-sky-600 sm:w-72 lg:w-64 bg-gray-900 shadow-xl">
             <figure className="px-4 pt-5">
               <img
                 src={Resturant}
                 alt="Meal"
-                className="rounded-xl w-96 h-32"
+                className="rounded-xl lg:w-96 sm:w-80 h-32"
               />
             </figure>
 
